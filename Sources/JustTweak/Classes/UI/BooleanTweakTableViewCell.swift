@@ -3,6 +3,7 @@
 //  Copyright (c) 2016 Just Eat Holding Ltd. All rights reserved.
 //
 
+#if canImport(UIKit)
 import UIKit
 
 internal class BooleanTweakTableViewCell: UITableViewCell, TweaksConfigurationViewControllerCell {
@@ -56,3 +57,5 @@ internal class BooleanTweakTableViewCell: UITableViewCell, TweaksConfigurationVi
     }
     
 }
+
+#endif

@@ -3,6 +3,7 @@
 //  Copyright (c) 2016 Just Eat Holding Ltd. All rights reserved.
 //
 
+#if canImport(UIKit)
 import UIKit
 
 class TextTweakTableViewCell: UITableViewCell, TweaksConfigurationViewControllerCell, UITextFieldDelegate {
@@ -80,3 +81,5 @@ class TextTweakTableViewCell: UITableViewCell, TweaksConfigurationViewController
     }
 
 }
+
+#endif
